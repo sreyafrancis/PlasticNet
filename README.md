@@ -68,7 +68,7 @@ Currently supported dataset are as follow:
 | S3DIS      |  yes                  | yes               |
 | Semantic3D |  yes                  | to implement      |
 | vKITTI3D   |  no                   | yes               |
-| ScanNet    |  to come soon         | to implement      |
+| ScanNet    |  to implement         | to implement      |
 
 #### Evaluation
 
