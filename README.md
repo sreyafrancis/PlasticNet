@@ -12,15 +12,9 @@ This is based on papers:
 
 *Point Cloud Oversegmentation with Graph-Structured Deep Metric Learning* <https://arxiv.org/pdf/1904.02113>.
 
-Computing the correct distances requires IGL library: 
+Computing the correct distances requires installation of IGL library: 
 
-@misc{libigl,
-  title = {{libigl}: A simple {C++} geometry processing library},
-  author = {Alec Jacobson and Daniele Panozzo and others},
-  note = {https://libigl.github.io/},
-  year = {2018},
-}
-
+<https://libigl.github.io/>
 
 
 
