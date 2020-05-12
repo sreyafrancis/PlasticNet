@@ -37,9 +37,9 @@ pip install future python-igraph tqdm transforms3d pynvrtc fastrlock cupy h5py s
 conda install -c anaconda boost; conda install -c omnia eigen3; conda install eigen; conda install -c r libiconv
 ```
 
-*4.* Make sure that cut pursuit was downloaded. Otherwise, clone [this repository](https://github.com/loicland/cut-pursuit) or add it as a submodule in `/partition`: <br>
+*4.* Make sure that cut pursuit was downloaded. Otherwise, clone [this repository](https://github.com/loicland/cut-pursuit) or add it as a submodule in `superpoint/partition`: <br>
 ```
-cd partition
+cd superpoint/partition
 git submodule init
 git submodule update --remote cut-pursuit
 ```
