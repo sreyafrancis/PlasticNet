@@ -13,12 +13,12 @@ This is based on papers:
 *Point Cloud Oversegmentation with Graph-Structured Deep Metric Learning* <https://arxiv.org/pdf/1904.02113>.
 
 ### Plastic Net Architecture
-<img src="https://github.com/sreyafrancis/PlasticNet/blob/master/images/SPEN_Plastic.JPG" width="300">
+<img src="https://github.com/sreyafrancis/PlasticNet/blob/master/images/SPEN_Plastic.JPG" width="500">
 
 ### Point cloud segmentation 
-<img src="http://imagine.enpc.fr/~simonovm/largescale/teaser.jpg" width="300">
+<img src="http://imagine.enpc.fr/~simonovm/largescale/teaser.jpg" width="500">
 
-<img src="http://recherche.ign.fr/llandrieu/SPG/ssp.png" width="300">
+<img src="http://recherche.ign.fr/llandrieu/SPG/ssp.png" width="500">
 
 ## Requirements
 
