@@ -16,6 +16,9 @@ Computing the correct distances requires installation of IGL library:
 
 <https://libigl.github.io/>
 
+*Plastic Net Architecture*
+<img src="https://github.com/sreyafrancis/PlasticNet/blob/master/images/SPEN_Plastic.JPG" width="900">
+
 <img src="http://imagine.enpc.fr/~simonovm/largescale/teaser.jpg" width="900">
 
 <img src="http://recherche.ign.fr/llandrieu/SPG/ssp.png" width="900">
@@ -59,29 +62,7 @@ make
 ```
 *6.* (optional) Install [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric)
 
-## Running the code
-
-To run our code or retrain from scratch on different datasets, see the corresponding readme files.
-Currently supported dataset are as follow:
-
-| Dataset    | handcrafted partition | learned partition | 
-| ---------- | --------------------- | ------------------|
-| S3DIS      |  yes                  | yes               |
-| Semantic3D |  yes                  | to implement      |
-| vKITTI3D   |  no                   | yes               |
-| ScanNet    |  to implement         | to implement      |
-
-#### Evaluation
-
-To evaluate quantitatively a trained model, use (for S3DIS and vKITTI3D only): 
-```
-python learning/evaluate.py --dataset s3dis --odir results/s3dis/best --cvfold 123456
-``` 
-
-To visualize the results and all intermediary steps, use the visualize function in partition (for S3DIS, vKITTI3D,a nd Semantic3D). For example:
-```
-python partition/visualize.py --dataset s3dis --ROOT_PATH $S3DIR_DIR --res_file results/s3dis/pretrained/cv1/predictions_test --file_path Area_1/conferenceRoom_1 --output_type igfpres
-```
+*7.* Install [libgl library](https://libigl.github.io/) 
 
 ```output_type``` defined as such:
 - ```'i'``` = input rgb point cloud
@@ -91,9 +72,6 @@ python partition/visualize.py --dataset s3dis --ROOT_PATH $S3DIR_DIR --res_file 
 - ```'r'``` = result cloud, with the predefined class to color mapping
 - ```'e'``` = error cloud, with green/red hue for correct/faulty prediction 
 - ```'s'``` = superedge structure of the superpoint (toggle wireframe on meshlab to view it)
-
-Add option ```--upsample 1``` if you want the prediction file to be on the original, unpruned data .
-
 
 
 
