@@ -1,4 +1,4 @@
-# PlasticNet - IFT 6132 Project
+# PlasticNet 
 Structured prediction of primitive shapes in point clouds
 
 This is based on papers:
